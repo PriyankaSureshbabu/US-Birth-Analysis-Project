@@ -2,6 +2,7 @@
 ![image](https://github.com/user-attachments/assets/c2d97002-7dfa-401f-bbe6-739b22c4d340)
 
 Project Overview
+
 Introduction:
 Analysis: Births in the US by Year, State and Education Level of the Mother: 2016-2021 The present project aims to conduct a trend analysis of births in the United States from 2016 to 2021 with regard to variability: mother's educational level, age, geographic location at the state level, birth rates, and changes over a specified period of time.It is in these dimensions that this project seeks to make a contribution through its possible correlations, disparities, and implications for public health policies and interventions.
 
@@ -13,38 +14,37 @@ Investigate the relationship between the education level of mothers and birth ra
 Analyze the average age trend of birthing mothers in the US from 2016 to 2021.
 Analyze the average weight trend of new born babies in the US between 2016 and 2021.
 Evaluate the birth spread of new born babies across states with the aid of a geospatial map
+
+
 Expected Outcomes:
-Identification of geographic variations in birth rates across the top 10 states by number of births.
-Determination of gender distribution among newborns, highlighting any disparities in birth ratios.
-Understanding of the overall trend of births in the US over the specified period, indicating whether birth rates have increased, decreased, or remained stable.
-Uncovering potential correlations between maternal education level and birth rates through analysis of total births across different educational groups.
-Analysis of the average age of birthing mothers over the specified period, revealing trends and shifts in maternal age.
-Examination of the average weight trend of newborn babies between 2016 and 2021, providing insights into potential health implications.
-Evaluation of birth spread across states using geospatial mapping, identifying regional disparities and informing resource allocation.
 
 
-Dataset Overview
+1.Identification of geographic variations in birth rates across the top 10 states by number of births.
+2.Determination of gender distribution among newborns, highlighting any disparities in birth ratios.
+3.Understanding of the overall trend of births in the US over the specified period, indicating whether birth rates have increased, decreased, or remained stable.
+4.Uncovering potential correlations between maternal education level and birth rates through analysis of total births across different educational groups.
+5.Analysis of the average age of birthing mothers over the specified period, revealing trends and shifts in maternal age.
+6.Examination of the average weight trend of newborn babies between 2016 and 2021, providing insights into potential health implications.
+7.Evaluation of birth spread across states using geospatial mapping, identifying regional disparities and informing resource allocation.
+
+
+Dataset Overview:
+
 This is the dataset for birth rates and other associated data for the 50 states and DC during the period of 2016-2021. The Centers for Disease Control and Prevention (CDC) provided the dataset. It contains the number of births, gender, birth weight, state, and the year the birth took place. This dataset places special emphasis on detailed information regarding mothers' educational levels. This dataset will allow one to do such things as analyze birth rates as a function of academic groups and geographic location.
 
 The dataset contains rows viewed as categories defined by state, birth year, gender of the baby, and mother's educational level. Three quantities are given for each category: number of births, mother's average age, and average baby weight. The CDC is sensitive to possibly disclosing personal information, so any category with fewer than ten births is suppressed. Data in this set was originally pulled using CDC's WONDER retrieval tool from the webpage CDC Natality.
 
 This dataset is made up of a single table with 9 columns and 5,496 rows of data, below is the data disctionary as regards the columns in this dataset:
 
-Table	Field	Description
-us_births_2016_2021.csv	State	This column represents the name of the state where the births occurred. Each entry in this column corresponds to a specific state within the United States
-State Abbreviation	This column provides the standardized abbreviation for each state. State abbreviations are typically two-letter codes used to uniquely identify each state
-Year	This column indicates the year in which the births occurred. Each entry in this column corresponds to a specific calendar year within the specified range
-Gender	This column specifies the gender of the newborns. Entries in this column typically include categories such as "Male" and "Female," indicating the gender of the newborns
-Education Level of Mother	This column denotes the educational attainment of the mothers. Entries in this column may include categories such as "Less than high school", "High school graduate", "Some college or associate's degree", "Bachelor's degree or higher", etc., representing different levels of education achieved by the mothers.
-Education Level Code	This column provides a numerical code corresponding to the educational level of the mothers. Each educational category mentioned in the "Education Level of Mother" column may have a unique numerical code assigned to it for data processing purposes.
-Number of Births	This column indicates the total number of births that occurred within the specified category. Each entry in this column represents the count of births corresponding to the particular combination of state, year, gender, and education level of the mother.
-Average Age of Mother (years)	This column provides the average age of the mothers at the time of giving birth. Entries in this column represent the mean age of mothers within each category, calculated in years.
-Average Birth Weight (g)	This column denotes the average birth weight of newborn babies. Entries in this column represent the mean weight of newborns within each category, typically measured in grams.
 
+Skills Utilized:
 
-Skills Utilized
 Data Cleaning
+
 Data Visualiziation
+
 Descriptive Analytics
+
 Analytical Thinking and Problem Solving
+
 Communication and Reporting
